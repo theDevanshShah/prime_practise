@@ -116,9 +116,9 @@
 # integer part -> 45
 # fractional part -> .78
 
-number = float(input("Enter the number like 45.78 : "))
-integerPart = int(number)
-print(f"The integer part is this : ",integerPart)
+# number = float(input("Enter the number like 45.78 : "))
+# integerPart = int(number)
+# print(f"The integer part is this : ",integerPart)
 
-fractionalPart = number - integerPart 
-print("The fractional part is: ", f"{fractionalPart:.2f}"[1:])
+# fractionalPart = number - integerPart 
+# print("The fractional part is: ", f"{fractionalPart:.2f}"[1:])
