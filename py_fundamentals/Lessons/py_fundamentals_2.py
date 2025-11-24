@@ -65,3 +65,29 @@
 #         print("Wrong Color")
 
 # Less goo for loops
+
+# count = 0 # iterator
+# while count <= 5:
+#     print(count)
+#     count += 1
+    
+# i = 1
+# n = 5   
+# while (i<=10):
+#     print(n, " * ", i, " = ", (n*i))
+#     i+=1
+    
+# We use Break statement to end the loop
+# & Continue statement to skip the record
+
+# If i dont want any multiple of 3 from a 1-10 & print the remaining numbers we can use it
+
+n = 0
+while (n <= 10):
+    if (n % 3 == 0):
+        n+=1
+        continue
+    print(n)
+    n+=1
+    
+print("JOB DONE")
